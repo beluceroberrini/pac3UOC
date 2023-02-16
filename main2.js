@@ -120,9 +120,6 @@ function backInfo(poke) {
 }
 
 const darkMode = document.querySelector('.myButton')
-const icon = document.querySelector('.icon')
-const light = document.querySelector('.light')
-
 const prefresDarkScheme = window.matchMedia('(prefers-color-scheme: light)')
 
 darkMode.addEventListener('click', () => {
